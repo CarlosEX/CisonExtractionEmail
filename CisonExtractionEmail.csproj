@@ -3,17 +3,13 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Carlos Antonio</Authors>
     <Company>Cison Framework</Company>
-    <PackageIcon>icons8_filter_16px.png</PackageIcon>
+    <PackageIcon></PackageIcon>
     <Description>Função para extração de e-mail de string de texto.</Description>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Copyright></Copyright>
   </PropertyGroup>
-  <ItemGroup>
-    <None Include="..\..\Pictures\icones\16 x16\blue\icons8_filter_16px.png">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
-  </ItemGroup>
 </Project>

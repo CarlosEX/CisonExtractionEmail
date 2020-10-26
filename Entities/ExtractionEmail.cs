@@ -1,9 +1,19 @@
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace CisonExtractionEmail
 {
+    /// <summary>
+    /// Represents a static class for manipulation/extraction of text string
+    /// </summary>
+
     public static class ExtractionEmail
     {
+        /// <summary>
+        /// Returns a text string, with e-mail occurrences found in the text
+        /// </summary>
+        /// <param name="texto">Text for extracting emails</param>
+        /// <returns></returns>
         public static string Extract(this string texto)
         {
             try
