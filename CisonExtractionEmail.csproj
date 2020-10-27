@@ -4,12 +4,15 @@
     <Authors>Carlos Antonio</Authors>
     <Company>Cison Framework</Company>
     <PackageIcon></PackageIcon>
-    <Description>Função para extração de e-mail de string de texto.</Description>
+    <Description>Função para extração de e-mail em texto.</Description>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <Copyright></Copyright>
+    <Copyright>Carlos Antonio</Copyright>
+    <PackageProjectUrl>https://www.cisonplanilhas.com</PackageProjectUrl>
+    <PackageTags>cison, carlos antonio, extract email</PackageTags>
+    <PackageReleaseNotes>Melhorias na documentação</PackageReleaseNotes>
   </PropertyGroup>
 </Project>
