@@ -12,16 +12,17 @@ namespace CisonExtractionEmail
         /// <summary>
         /// Returns a text string, with e-mail occurrences found in the text
         /// </summary>
-        /// <param name="texto">Text for extracting emails</param>
+        /// <param name="text">Text for extracting emails</param>
+        /// <param name="keySensitive">Consider find KeySensitive</param>
         /// <returns></returns>
-        public static string Extract(this string texto)
+        public static string Extract(this string text, bool keySensitive)
         {
             try
             {
-                if (string.IsNullOrWhiteSpace(texto))
+                if (string.IsNullOrWhiteSpace(text))
                     return string.Empty;
                     
-                return Results(PatternExtractionEmailRegex.ExtractEmailString(texto));
+                return Results(PatternExtractionEmailRegex.ExtractEmailString(text, keySensitive));
             }
             catch (System.Exception e)
             {
