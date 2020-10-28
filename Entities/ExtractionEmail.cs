@@ -15,7 +15,7 @@ namespace CisonExtractionEmail
         /// <param name="text">Text for extracting emails</param>
         /// <param name="keySensitive">Consider find KeySensitive</param>
         /// <returns></returns>
-        public static string Extract(this string text, bool keySensitive)
+        public static string Extract(this string text, bool keySensitive = false)
         {
             try
             {

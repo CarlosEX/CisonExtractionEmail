@@ -7,13 +7,13 @@
     <Description>Função para extração de e-mail em texto.</Description>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
-    <Version>1.0.5</Version>
+    <Version>1.0.6</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Copyright>Carlos Antonio</Copyright>
     <PackageProjectUrl>https://www.cisonplanilhas.com</PackageProjectUrl>
     <PackageTags></PackageTags>
-    <PackageReleaseNotes>Inlcuído pesquisa por KeySensitive antes do caractere de e-mail @</PackageReleaseNotes>
+    <PackageReleaseNotes>Alterado o valor do parâmetro KeySensitive para opcional. O valor padrão é false, que desconsidera o ínicio de e-mail ente maiúscula e minúsculas. Caso queira que seja localizados apenas os e-mail com lestras minúsculas, passe o valor do parâmetro como true.</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 </Project>

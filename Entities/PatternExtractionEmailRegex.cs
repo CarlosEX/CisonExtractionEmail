@@ -12,7 +12,7 @@ namespace CisonExtractionEmail
             {
                 string typeRegex = string.Empty;
 
-                if (keySensitive == false)
+                if (keySensitive == true)
                 {
                     typeRegex = "[A_Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*" + "@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})";
                 }
