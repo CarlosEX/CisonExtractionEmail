@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CisonExtractionEmail</name>
+    </assembly>
+    <members>
+        <member name="T:CisonExtractionEmail.ExtractionEmail">
+            <summary>
+            Represents a static class for manipulation/extraction of text string
+            </summary>
+        </member>
+        <member name="M:CisonExtractionEmail.ExtractionEmail.Extract(System.String,System.Boolean)">
+            <summary>
+            Returns a text string, with e-mail occurrences found in the text
+            </summary>
+            <param name="text">Text for extracting emails</param>
+            <param name="ignoreCase">Consider find KeySensitive</param>
+            <returns>string (email1,email2,email3...)</returns>
+        </member>
+    </members>
+</doc>

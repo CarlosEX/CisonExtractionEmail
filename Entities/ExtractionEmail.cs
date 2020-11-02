@@ -1,5 +1,4 @@
 using System.Text;
-using System.Text.RegularExpressions;
 
 namespace CisonExtractionEmail
 {
@@ -13,16 +12,16 @@ namespace CisonExtractionEmail
         /// Returns a text string, with e-mail occurrences found in the text
         /// </summary>
         /// <param name="text">Text for extracting emails</param>
-        /// <param name="keySensitive">Consider find KeySensitive</param>
-        /// <returns></returns>
-        public static string Extract(this string text, bool keySensitive = false)
+        /// <param name="ignoreCase">Consider find KeySensitive</param>
+        /// <returns>string (email1,email2,email3...)</returns>
+        public static string Extract(this string text, bool ignoreCase = false)
         {
             try
             {
                 if (string.IsNullOrWhiteSpace(text))
                     return string.Empty;
                     
-                return Results(PatternExtractionEmailRegex.ExtractEmailString(text, keySensitive));
+                return Results(PatternExtractionEmailRegex.ExtractEmailString(text, ignoreCase));
             }
             catch (System.Exception e)
             {
